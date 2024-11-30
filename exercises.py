@@ -46,7 +46,6 @@ class Game:
         self.board[move] = self.turn
     
     def check_for_winner(self):
-        # Checks if there's a winner
         win_combinations = [
             # Horizontal wins
             ['a1', 'b1', 'c1'],
